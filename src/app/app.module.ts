@@ -25,14 +25,22 @@ import { LayoutComponent } from './layout/layout.component';
 
 
 import {FlexLayoutModule} from "@angular/flex-layout";
-
+import { FirebaseModule } from './Firebase.module-1';
+import { LoginComponent } from './login/login.component';
+import {MatCardModule} from '@angular/material/card';
+import { ArticleComponent } from './article/article.component';
+import { ArticleAffectComponent } from './article-affect/article-affect.component';
+import {MatSelectModule} from '@angular/material/select';
 @NgModule({
   declarations: [
     AppComponent,
     MemberFormComponent,
     MemberListComponent,
     ConfirmDialogComponent,
-    LayoutComponent
+    LayoutComponent,
+    LoginComponent,
+    ArticleComponent,
+    ArticleAffectComponent
   ],
   imports: [
     ReactiveFormsModule,FormsModule,
@@ -49,7 +57,10 @@ import {FlexLayoutModule} from "@angular/flex-layout";
     MatToolbarModule,
     MatListModule,
     MatMenuModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FirebaseModule,
+    MatCardModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

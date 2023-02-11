@@ -1,0 +1,14 @@
+<p>article-affect works!</p>
+<form>
+    <h4>mat-select</h4>
+    <mat-form-field appearance="fill">
+      <mat-label>Select a member</mat-label>
+      <mat-select [(value)]="selected">
+        <mat-option>None</mat-option>
+        <mat-option *ngFor="let element of tab" [value]="element.id">
+          {{element.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <p> Selected element: {{selected}} </p>
+</form>

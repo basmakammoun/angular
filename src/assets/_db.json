@@ -19,5 +19,18 @@
           "createat":"25/12/2022",
           "cv":"www.intagram.com",
           "type":"student"}
+    ],
+    "Articles":
+    [
+        { "id_article":"1254",
+          "title":"A survey",
+          "Author": "",
+          "Annee":"2023"
+        },
+        { "id_article":"1584",
+          "title":"A survey",
+          "Author": "",
+          "Annee":"2022"
+        }
     ]
 }
