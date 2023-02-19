@@ -31,6 +31,7 @@ import {MatCardModule} from '@angular/material/card';
 import { ArticleComponent } from './article/article.component';
 import { ArticleAffectComponent } from './article-affect/article-affect.component';
 import {MatSelectModule} from '@angular/material/select';
+import { DashbordComponent } from './dashbord/dashbord.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +41,8 @@ import {MatSelectModule} from '@angular/material/select';
     LayoutComponent,
     LoginComponent,
     ArticleComponent,
-    ArticleAffectComponent
+    ArticleAffectComponent,
+    DashbordComponent
   ],
   imports: [
     ReactiveFormsModule,FormsModule,

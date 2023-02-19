@@ -1,7 +1,10 @@
 <p>article-affect works!</p>
 <form>
-    <h4>mat-select</h4>
-    <mat-form-field appearance="fill">
+    
+    <div class="big-div">
+      <div class="input-div">
+      <h4>mat-select</h4>
+      <mat-form-field appearance="fill">
       <mat-label>Select a member</mat-label>
       <mat-select [(value)]="selected">
         <mat-option>None</mat-option>
@@ -10,5 +13,11 @@
         </mat-option>
       </mat-select>
     </mat-form-field>
-    <p> Selected element: {{selected}} </p>
+    
+    </div>
+    <div class="button-div">
+      <p> Selected element: {{selected}} </p>
+      <button mat-raised-button (click)="add(selected)"> OK </button>
+    </div>
+    </div>   
 </form>
