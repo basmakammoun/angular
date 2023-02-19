@@ -14,7 +14,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MemberFormComponent } from './member-form/member-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.component';
-import{MatDialogModule} from '@angular/material/dialog';
+import {MatDialogModule} from '@angular/material/dialog';
 
 
 import {MatSidenavModule} from '@angular/material/sidenav';
